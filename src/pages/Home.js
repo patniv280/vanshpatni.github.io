@@ -14,22 +14,21 @@ const Home = () => {
         <div className="content">
             <div className="home-page">
                 <div className="intro-text">
-                    <h1 className="typed">Hi, I'm Lindsay!</h1>
+                    <h1 className="typed">Hi, I'm Vansh!</h1>
                     <h2 className="fadein frame2">Welcome to my personal site.</h2>
                     <br></br>
-                    <p className="fadein frame2">Right now, I'm a 3rd-year student at <a href="https://www.ucla.edu/" target="_blank" rel="noopener noreferrer">UCLA</a> majoring in Computer Science and minoring in Public Affairs.</p>
+                    <p className="fadein frame2">Right now, I'm a 1st-year student at <a href="https://www.sgsits.ac.in/" target="_blank" rel="noopener noreferrer">UCLA</a> majoring in Electronics and minoring in Data Science.</p>
                     <br></br>
-                    <p className="fadein frame2">I'm also a</p>
+                    <p className="fadein frame2">I'm also </p>
                     <ul className="fadein frame2">
-                        <li>previous intern at <a href="https://www.aboutamazon.com/" target="_blank" rel="noopener noreferrer">Amazon</a> and 
-                        <a href="https://www6.slac.stanford.edu/" target="_blank" rel="noopener noreferrer"> SLAC</a></li>
-                        <li>DevOps Lead for <a href="https://apply.uclastudentmedia.com/" target="_blank" rel="noopener noreferrer">UCLA Student Media DevOps</a></li>
-                        <li>and a bad joke enthusiast!</li>
+                     interested in full stack web development.
+                    <li> Exploring real-world projects </li>
+                    <li>Learning by building </li>
+                    <li>Growing one skill at a time </li>
                     </ul>
                     <br></br>
-                    <p className="fadein frame2">While you're here, feel free to check out what I've been up to, from <Link to='/work'>professional projects</Link> to <Link to='/about'>personal passions</Link>.</p>
                 </div>
-                <img className="fadein" src={headshot} alt="Lindsay Qin professional headshot."></img>
+                <img className="fadein" src={headshot} alt="Vansh Patni."></img>
             </div>
         </div>
         <Contact />
